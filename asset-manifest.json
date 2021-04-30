@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/mani/static/css/main.88add5c2.chunk.css",
-    "main.js": "/mani/static/js/main.27e57572.chunk.js",
-    "main.js.map": "/mani/static/js/main.27e57572.chunk.js.map",
+    "main.css": "/mani/static/css/main.4fd9fae2.chunk.css",
+    "main.js": "/mani/static/js/main.ebce8b27.chunk.js",
+    "main.js.map": "/mani/static/js/main.ebce8b27.chunk.js.map",
     "runtime-main.js": "/mani/static/js/runtime-main.0e647aa9.js",
     "runtime-main.js.map": "/mani/static/js/runtime-main.0e647aa9.js.map",
     "static/js/2.00b4f047.chunk.js": "/mani/static/js/2.00b4f047.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.71e0e662.chunk.js": "/mani/static/js/3.71e0e662.chunk.js",
     "static/js/3.71e0e662.chunk.js.map": "/mani/static/js/3.71e0e662.chunk.js.map",
     "index.html": "/mani/index.html",
-    "static/css/main.88add5c2.chunk.css.map": "/mani/static/css/main.88add5c2.chunk.css.map",
+    "static/css/main.4fd9fae2.chunk.css.map": "/mani/static/css/main.4fd9fae2.chunk.css.map",
     "static/js/2.00b4f047.chunk.js.LICENSE.txt": "/mani/static/js/2.00b4f047.chunk.js.LICENSE.txt",
     "static/media/gallery_1.d25daed6.png": "/mani/static/media/gallery_1.d25daed6.png",
     "static/media/gallery_2.d423f422.png": "/mani/static/media/gallery_2.d423f422.png",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.0e647aa9.js",
     "static/js/2.00b4f047.chunk.js",
-    "static/css/main.88add5c2.chunk.css",
-    "static/js/main.27e57572.chunk.js"
+    "static/css/main.4fd9fae2.chunk.css",
+    "static/js/main.ebce8b27.chunk.js"
   ]
 }
