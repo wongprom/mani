@@ -1,4 +1,9 @@
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect,
+} from 'react-router-dom';
 // info Add lazy loading
 import About from './pages/aboutPage/About';
 import Label from './pages/labelPage/Label';
@@ -33,6 +38,7 @@ function App() {
         <Route path="/about">
           <About />
         </Route>
+        <Redirect to="/" />
       </Switch>
       <Footer />
     </Router>
