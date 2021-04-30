@@ -1,0 +1,9 @@
+const Podcast = () => {
+  return (
+    <div className="h-screen flex justify-center bg-yellow-600">
+      <h1 className="pt-7 text-6xl">Podcast</h1>
+    </div>
+  );
+};
+
+export default Podcast;

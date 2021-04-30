@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind screens;
+
+@layer utilities {
+  .imakzv {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    margin: 0;
+  }
+
+  .rec.rec-carousel-wrapper {
+    position: relative !important;
+    /* background-color: red !important; */
+  }
+  .rec.rec-pagination {
+    position: absolute !important;
+    bottom: 15px;
+  }
+  .rec.rec-dot {
+    background-color: white;
+    box-shadow: none;
+    outline: none;
+  }
+
+  .rec.rec-dot_active {
+    background-color: #ee2624;
+    border-color: #ee2624;
+  }
+
+  .menu {
+    display: flex;
+  }
+  .globe {
+    display: none;
+  }
+  #showSide {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    background-color: #ee2624;
+    right: 0;
+  }
+  #showSide ul {
+    flex-direction: column;
+    width: 100vh;
+    padding: 84px 0 0 16px;
+  }
+  #showSide li {
+    padding-bottom: 32px;
+    margin-left: 0;
+  }
+  .closeIcon {
+    position: fixed;
+    width: 40px;
+    top: 20px;
+    right: 16px;
+  }
+  .arrowDownIcon {
+    position: fixed;
+    width: 24px;
+    top: 80px;
+    right: 28px;
+  }
+
+  @screen laptop-890 {
+    nav.hidden {
+      display: flex;
+    }
+    .globe {
+      display: flex;
+    }
+    .menu {
+      display: none;
+    }
+    .closeIcon {
+      display: none;
+    }
+    .arrowDownIcon {
+      display: none;
+    }
+    #showSide {
+      all: revert;
+    }
+    #showSide ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      padding-top: 0;
+      width: 100%;
+    }
+    #showSide li {
+      padding-left: 15px;
+    }
+  }
+}
